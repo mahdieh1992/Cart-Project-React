@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    background-color: rgb(93, 93, 133);
+    width: 96%;
+    text-align: right;
+    height: auto;
+    padding: 15px;
+    margin: 5px 5px;
+}
+
+li a {
+    text-decoration: none;
+
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:hover {
+    opacity: 0.60;
+}
+a:active{
+    color: rgb(19, 19, 65);
+}

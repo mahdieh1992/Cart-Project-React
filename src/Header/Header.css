@@ -1,0 +1,18 @@
+.Header {
+    background-color: rgb(52, 52, 83);
+    width: 99%;
+    height: 100px;
+    box-shadow: 2px 2px 5px 6px rgb(103, 124, 131);
+    text-align: right;
+
+
+}
+
+#shop {
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(189, 209, 209);
+    padding: 15px;
+    margin: 0 50px;
+
+}
