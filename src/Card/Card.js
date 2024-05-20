@@ -1,14 +1,14 @@
 import './Card.css'
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className='contain'>
-            
-            <h1 id='hProduct'>ProductName</h1>
+
+            <h1 id='hProduct'>{props.Title}</h1>
             <div className="Card">
-                <img src='product.jpeg'></img>
-                <p>This is the best product</p>
-                <p id='price'>$3000</p>
+                <img src={props.Image}></img>
+                <p>{props.Description}</p>
+                <p id='price'>{props.Price}</p>
                 <button id="btnCard">CardPay</button>
 
             </div>
