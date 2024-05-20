@@ -2,6 +2,7 @@ import './Card.css'
 
 export default function Card(props) {
     return (
+        props.Price > 500 &&
         <div className='contain'>
 
             <h1 id='hProduct'>{props.Title}</h1>
