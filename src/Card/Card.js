@@ -1,6 +1,6 @@
 import './Card.css'
 
-export default function Card({ Title: productTitle, Image='logo512.png', Description, Price }) {
+export default function Card({ Title: productTitle, Image = 'logo512.png', Description, Price, children }) {
 
     // let {Title,Image,Description,Price}=props
     return (
@@ -12,6 +12,7 @@ export default function Card({ Title: productTitle, Image='logo512.png', Descrip
                 <img src={Image}></img>
                 <p>{Description}</p>
                 <p id='price'>{Price}</p>
+                {children}
                 <button id="btnCard">CardPay</button>
             </div>
 
