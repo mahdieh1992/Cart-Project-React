@@ -1,13 +1,13 @@
 import './Card.css'
 
-export default function Card({Title,Image,Description,Price}) {
+export default function Card({ Title: productTitle, Image, Description, Price }) {
 
     // let {Title,Image,Description,Price}=props
     return (
-       Price > 500 &&
+        Price > 500 &&
         <div className='contain'>
 
-            <h1 id='hProduct'>{Title}</h1>
+            <h1 id='hProduct'>{productTitle}</h1>
             <div className="Card">
                 <img src={Image}></img>
                 <p>{Description}</p>
