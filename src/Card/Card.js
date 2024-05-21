@@ -1,6 +1,6 @@
 import './Card.css'
 
-export default function Card({ Title: productTitle, Image, Description, Price }) {
+export default function Card({ Title: productTitle, Image='logo512.png', Description, Price }) {
 
     // let {Title,Image,Description,Price}=props
     return (
@@ -18,3 +18,8 @@ export default function Card({ Title: productTitle, Image, Description, Price })
         </div>
     )
 }
+
+// determine defaultProps if image exist not
+// Card.defaultProps={
+//     Image:'logo192.png'
+// }

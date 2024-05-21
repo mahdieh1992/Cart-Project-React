@@ -7,7 +7,7 @@ function App() {
 
     const product=[
         {id:1,Title:"Women's dress" ,Price:2500,Image:'images/women.webp', Description:"Neck Shirt Classic"},
-        {Title:"mobile",Price:4500, Image:"images/mobile.webp", Description:"Samsung Galaxy A05s mobile phone with 128 GB capacity and 4 GB RAM"},
+        {Title:"mobile",Price:4500, Description:"Samsung Galaxy A05s mobile phone with 128 GB capacity and 4 GB RAM"},
         {Title:"sports and travel" ,Price:500, Image:"images/sport.webp" ,Description:"Sports backpack model K-101"},
         { Title:"toys, baby", Price:200 ,Image:"images/toy.webp", Description:"Fruit rabbit design doll, strawberry model" },
         {Title:"Men clothing", Price:100, Image:'images/mencloth.webp', Description:"Boy's hooded"},
